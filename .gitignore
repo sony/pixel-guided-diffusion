@@ -1,9 +1,0 @@
-.DS_Store
-*__pycache__/
-*.pt
-*.pth
-*.h5
-
-*.npy
-*.jpg
-*.npz
