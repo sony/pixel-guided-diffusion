@@ -1,0 +1,30 @@
+{
+    "mlp_model_path": "./checkpoint/pixel_classifiers/ffhq_gt_750/",
+    "model_type": "guidance_ddpm",
+    "category": "ffhq_34",
+    "number_class": 34,
+    "ignore_label": 255,
+    "latent_path": false,
+    "model_path": "./checkpoint/diffusion_model/ffhq.pt",
+    "dim": [
+        256,
+        256,
+        2816
+    ],
+    "blocks": [
+        5,
+        6,
+        7,
+        8,
+        12
+    ],
+    "model_num": 1,
+    "batch_size": 64,
+    "max_training": 30,
+    "training_number": 30,
+    "testing_number": 30,
+    "deeplab_res": 256,
+    "upsample_mode": "bilinear",
+    "share_noise": true,
+    "input_activations": false
+}

@@ -1,0 +1,5 @@
+beta_strategy: linear
+max_timesteps: 1000
+t_start: 500
+model_var_type: learned_range
+respacing_step: 1

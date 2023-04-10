@@ -1,0 +1,7 @@
+torch==1.12.1+cu113
+torchvision==0.13.1+cu113
+blobfile==1.2.7
+tqdm==4.62.3
+opencv-python==4.6.0.66
+timm==0.4.12
+--extra-index-url https://download.pytorch.org/whl/cu113

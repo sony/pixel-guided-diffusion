@@ -1,0 +1,4 @@
+checkpoint/diffusion_model/*pt
+checkpoint/pixel_classifiers/ffhq_gmulti/
+checkpoint/pixel_classifiers/ffhq_gt_750/
+

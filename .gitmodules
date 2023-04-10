@@ -1,0 +1,6 @@
+[submodule "nnabla/nnabla-examples"]
+	path = nnabla/nnabla-examples
+	url = https://github.com/sony/nnabla-examples.git
+[submodule "torch/ddpm_segmentation"]
+	path = torch/ddpm_segmentation
+	url = https://github.com/yandex-research/ddpm-segmentation.git

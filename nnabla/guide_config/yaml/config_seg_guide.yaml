@@ -1,0 +1,5 @@
+defaults:
+  - /proto_configs/datasetddpm@datasetddpm
+  - /proto_configs/seg_guide@seg_guide
+  - runtime: default
+  - datasetddpm: default

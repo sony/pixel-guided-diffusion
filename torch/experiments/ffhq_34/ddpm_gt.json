@@ -1,0 +1,31 @@
+{
+    "exp_dir": "./checkpoint/pixel_classifiers/ffhq_gt_750",
+    "model_type": "ddpm",
+    "category": "ffhq_34",
+    "number_class": 34,
+    "ignore_label": 255,
+    "training_path": "datasets/ffhq_34/real/train",
+    "validation_path": "datasets/ffhq_34/ddpm",
+    "testing_path": "datasets/ffhq_34/real/test",
+    "model_path": "./checkpoint/diffusion_model/ffhq.pt",
+    "dim": [
+        256,
+        256,
+        2816
+    ],
+    "blocks": [
+        5,
+        6,
+        7,
+        8,
+        12
+    ],
+    "model_num": 1,
+    "batch_size": 64,
+    "max_training": 30,
+    "training_number": 2,
+    "testing_number": 30,
+    "upsample_mode": "bilinear",
+    "share_noise": true,
+    "input_activations": false
+}
